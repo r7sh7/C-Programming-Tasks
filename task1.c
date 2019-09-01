@@ -12,11 +12,11 @@ int main()
     int age;
     char name[20], phone[12];
     printf("Enter your first name:\n");
-    scanf("%s", name);
+    scanf("%s", &name);
     printf("Enter your age:\n");
     scanf("%d", &age);
     printf("Enter phone number:\n");
-    scanf("%s", phone);
+    scanf("%s", &phone);
     printf("\nDisplaying details:\n");
     printf("Name: %s\nAge: %d\nPhone number: %s\n", name, age, phone);
     return 0;
